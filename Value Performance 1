@@ -1,0 +1,23 @@
+import java.io.*;
+
+import java.util.*;
+
+
+public class answers {
+
+    public static void main(String[] args) { 
+        
+        Scanner sc = new Scanner(System.in);
+        
+        
+        int integerInput = sc.nextInt();
+        
+        float floatInput = sc.nextFloat();
+        
+        
+        System.out.println(integerInput);{ }
+        
+        System.out.printf("%.2f\n", floatInput);
+        
+    }
+}
